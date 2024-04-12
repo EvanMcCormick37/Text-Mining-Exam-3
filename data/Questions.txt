@@ -1,0 +1,5 @@
+1. What do people who like the bow like about it? What do people who like the dolphin pool cleaner like about it?
+2. Conversely, what problems to the people who leave 1-star reviews have with these respective products?
+3. Which model will perform the best at classifying the positive and negative reviews?
+4. Could a model differentiate the positive/negative reviews if we trained it on the combined bow/dolphin dataset? If so, what linguistic features would it pick up to distinguish the positive and the negative reviews?
+5. Could at model differentiate the product being reviewed if we trained it on the entire dataset? Which linquistic features would this model use to distinguish between the different products?
