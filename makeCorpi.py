@@ -23,8 +23,8 @@ def cleanLemmatize(t):
 v_CL = np.vectorize(cleanLemmatize)
 df['REVIEW'] = v_CL(df['REVIEW'])
 
-CV1 = CountVectorizer(stop_words='english')
-CV2 = CountVectorizer(stop_words='english',max_features=100)
+CV1 = CountVectorizer(stop_words='english',min_df=2)
+CV2 = CountVectorizer(stop_words='english',min_df=2,max_features=100)
 
 wdm1 = pd.concat([ 
     df['LABEL'],
